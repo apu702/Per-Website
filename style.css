@@ -24,11 +24,13 @@ li{
 /*-------------------Hello Part Start--------------*/   
 .name{
     color: rgb(255, 7, 143);
+    transition: all 1s ease 0s;
 }
 
 .name:hover{
     color: cyan;
-    transition: ;
+    transform: .5s;
+  
 }
 
 .half{
