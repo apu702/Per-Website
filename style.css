@@ -1,0 +1,218 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+p{
+    color: dimgray;
+}
+
+h1{
+    font-size: 50px;
+}
+
+section{
+    height: 600px;
+    padding-bottom:20px ;
+}
+
+li{
+    list-style: none;
+}
+
+
+/*-------------------Hello Part Start--------------*/   
+.name{
+    color: rgb(255, 7, 143);
+}
+
+.name:hover{
+    color: cyan;
+    transition: ;
+}
+
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+
+.half img{
+    width: 100%;
+    transition: all 1s ease 0s;
+}
+
+.half img:hover{
+    transform:  scale(1.1);
+}
+
+.hello{
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.link-btn{
+    text-decoration: none;
+    background-color: rgb(255, 7, 143);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: all 1s ease 0s;
+}
+
+.link-btn:hover{
+    background-color: cyan;
+    color: black;
+    transform:  scale(1.1);
+}
+
+/*-------------------Hello Part END--------------*/  
+
+/*-------------------Biography Part START--------------*/ 
+
+.half1{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+
+.half1 img{
+    width: 90%;
+    transition: all 1s ease 0s;
+}
+
+.half1 img:hover{
+    transform:  scale(1.1);
+}
+
+
+.biography{
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    height: 450px;
+}
+/*-------------------Biography Part END--------------*/ 
+
+/*-------------------Work Part Start--------------*/ 
+.work{
+    margin: 10px 10px;
+}
+
+
+#expa{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    opacity: .3;
+}
+.work-img {
+margin-left: 2%; 
+}
+
+.i1{
+    height: 300px;
+    width: 32%;
+    padding: 4px;
+    transition: all 1s ease 0s;
+}
+
+.i1:hover{
+    transform:  scale(1.1);
+
+}
+
+
+.i2{
+    height: 300px;
+    width: 32%;
+    padding: 4px;
+    transition: all 1s ease 0s;
+
+}
+.i2:hover{
+    transform:  scale(1.1);
+
+}
+
+
+.i3{
+    height: 300px;
+    width: 32%;
+
+    transition: all 1s ease 0s;
+
+}
+.i3:hover{
+    transform:  scale(1.1);
+
+}
+
+
+.work{
+   height: 450px;
+   
+}
+
+/*-------------------work Part END--------------*/ 
+
+
+/*-------------------Client Part Start--------------*/ 
+
+.client{
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 300px;
+}
+
+.light{
+    color: rgb(153, 151, 151);
+}
+
+.p{
+    margin-bottom: 100px;
+}
+
+.msg{
+    background-color: rgb(255, 7, 143);
+    color: white;
+    font-weight: bold;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 40px 0;
+    border-radius: 10px;
+    transition: all 1s ease 0s;
+}
+.msg:hover{
+    background-color: cyan;
+    transform:  .5s;
+
+}
+.message-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+   
+}
+
+/*-------------------Client Part END--------------*/ 
+
+
+footer{
+    text-align:  center;
+    margin-bottom: 100px;
+}
+
+
+
